@@ -8,7 +8,7 @@ public class Ex02 {
         //Import do Scanner
         Scanner input = new Scanner(System.in);
 
-        //Criar variáveis
+        //Criar variáveis podem se usadas apenas 3
         int valor1, valor2, soma, subtr, multi, div;
 
         System.out.println("_________FP01 | EX02__________");

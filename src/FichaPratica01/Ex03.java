@@ -7,15 +7,15 @@ public class Ex03 {
 
         Scanner input = new Scanner(System.in);
 
-        float area, base, altura, perimetro;
+        double area, base, altura, perimetro;
 
         System.out.println("_________FP01 | EX03__________");
 
         System.out.print("Insira a base: ");
-        base = input.nextInt();
+        base = input.nextDouble();
 
         System.out.print("Insira a altura: ");
-        altura = input.nextInt();
+        altura = input.nextDouble();
 
         area = base * altura;
         perimetro = 2 * (base + altura);
