@@ -35,8 +35,8 @@ public class Ex08 {
         //calculos
 
         tsegundos = segundos % 60;
-        tminutos = (tsegundos + minutos) % 60;
-        horas = tminutos % 60;
+        tminutos = minutos % 60;
+        horas = minutos / 60;
 
         System.out.println("O album tem " + horas + " h " + tminutos + " m " + tsegundos + "s");
 
