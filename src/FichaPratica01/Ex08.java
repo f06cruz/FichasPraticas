@@ -5,29 +5,29 @@ public class Ex08 {
         Scanner input = new Scanner(System.in);
         System.out.println("_________FP01 | EX08__________");
 
-        int segundos=0, minutos=0, horas=0, tminutos=0, tsegundos=0;
+        int segundos=0, minutos=0, horas, tminutos, tsegundos;
 
-        System.out.print("Minutos da musica 1: ");
+        System.out.print("Minutos da música 1: ");
         minutos = minutos + input.nextInt();
         System.out.print("Segundos da música 1: ");
         segundos = segundos + input.nextInt();
 
-        System.out.print("Minutos da musica 2: ");
+        System.out.print("Minutos da música 2: ");
         minutos = minutos + input.nextInt();
         System.out.print("Segundos da música 2: ");
         segundos = segundos + input.nextInt();
 
-        System.out.print("Minutos da musica 3: ");
+        System.out.print("Minutos da música 3: ");
         minutos = minutos + input.nextInt();
         System.out.print("Segundos da música 3: ");
         segundos = segundos + input.nextInt();
 
-        System.out.print("Minutos da musica 4: ");
+        System.out.print("Minutos da música 4: ");
         minutos = minutos + input.nextInt();
         System.out.print("Segundos da música 4: ");
         segundos = segundos + input.nextInt();
 
-        System.out.print("Minutos da musica 5: ");
+        System.out.print("Minutos da música 5: ");
         minutos = minutos + input.nextInt();
         System.out.print("Segundos da música 5: ");
         segundos = segundos + input.nextInt();
