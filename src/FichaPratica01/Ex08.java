@@ -5,12 +5,12 @@ public class Ex08 {
         Scanner input = new Scanner(System.in);
         System.out.println("_________FP01 | EX08__________");
 
-        int segundos=0, minutos=0, horas, tminutos, tsegundos;
+        int segundos , minutos , horas, tminutos, tsegundos;
 
         System.out.print("Minutos da música 1: ");
-        minutos = minutos + input.nextInt();
+        minutos = input.nextInt();
         System.out.print("Segundos da música 1: ");
-        segundos = segundos + input.nextInt();
+        segundos = input.nextInt();
 
         System.out.print("Minutos da música 2: ");
         minutos = minutos + input.nextInt();
@@ -35,6 +35,7 @@ public class Ex08 {
         //calculos
 
         tsegundos = segundos % 60;
+        minutos = minutos + (segundos / 60);
         tminutos = minutos % 60;
         horas = minutos / 60;
 
