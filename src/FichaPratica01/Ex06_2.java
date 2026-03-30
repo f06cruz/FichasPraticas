@@ -9,7 +9,7 @@ public class Ex06 {
 
         System.out.println("_________FP01 | EX06__________");
 
-        int valor1, valor2, temp;
+        int valor1, valor2;
 
         System.out.print("Insira o 1º valor: ");
         valor1 = input.nextInt();
@@ -18,9 +18,9 @@ public class Ex06 {
         valor2 = input.nextInt();
 
         //calculos
-        temp = valor1;
-        valor1 = valor2;
-        valor2= temp;
+        valor1 = valor1 + valor2;
+        valor2 = valor1 - valor2;
+        valor1 = valor1 - valor2;
 
         System.out.println("O valor 1 é: " + valor1);
         System.out.println("O valor 2 é: " + valor2);
