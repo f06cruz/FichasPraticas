@@ -17,6 +17,7 @@ public class Ex07 {
         valor3 = input.nextDouble();
 
         resultado = (valor1 +valor2 + valor3) - ((valor1 +valor2 + valor3)*0.1);
+        // resultado = (valor1 +valor2 + valor3) * 0.9;
 
         System.out.println("O resultado é: " + resultado);
 
