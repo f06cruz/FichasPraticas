@@ -8,10 +8,13 @@ public class Ex05 {
         int num;
         String msg;
 
+
         System.out.print("Introduza um Número :");
         num = input.nextInt();
         System.out.print("Introduza uma mensagem: ");
-        msg = input.next();
+        input.nextLine();
+        msg = input.nextLine();
+
 
         while (num > 0) {
             System.out.println(msg);

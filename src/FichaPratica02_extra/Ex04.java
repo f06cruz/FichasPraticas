@@ -1,5 +1,4 @@
 package FichaPratica02_extra;
-import javax.print.DocFlavor;
 import java.util.Scanner;
 public class Ex04 {
     public static void main(String[] args) {
@@ -13,24 +12,19 @@ public class Ex04 {
         switch (letra) {
             case("a"): {
                 System.out.println("vogal");
-                break;
-            }
+                break;}
             case("e"): {
                 System.out.println("vogal");
-
-                break;            }
+                break;}
             case("i"): {
                 System.out.println("vogal");
-                break;
-            }
+                break;}
             case("o"): {
                 System.out.println("vogal");
-                break;
-            }
+                break;}
             case("u"): {
                 System.out.println("Vogal");
-
-            }
+            break;}
             default: {
                 System.out.println("Consoante");
             }
