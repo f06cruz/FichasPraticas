@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Ex12 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("_________FP02 | EX11__________");
+        System.out.println("_________FP02 | EX12__________");
 
         int opcao;
 
@@ -12,18 +12,18 @@ public class Ex12 {
         System.out.println("2.Atualizar");
         System.out.println("3.Eliminar");
         System.out.println("4.Sair");
-        System.out.print("Escolha: ");
+        System.out.print("\nEscolha: ");
         opcao= input.nextInt();
 
         switch (opcao) {
             case 1:
-                System.out.println("Criar");
+                System.out.println("\nCriar");
                 break;
             case 2:
-                System.out.println("Atualizar");
+                System.out.println("\nAtualizar");
                 break;
             case 3:
-                System.out.println("Eliminar");
+                System.out.println("\nEliminar");
                 break;
             case 4:
                 break;

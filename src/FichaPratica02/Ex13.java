@@ -12,9 +12,11 @@ public class Ex13 {
         System.out.print("Minutos: ");
         minutos= input.nextInt();
 
-        if (horas<=11 && minutos<=59)
-            System.out.print(horas+":"+minutos+" AM");
-        else System.out.print(horas-12+":"+minutos+" PM");
-
+        if (horas>=0 && horas<=23 && minutos >=0 && minutos<=59){
+            if (horas<=11 && minutos<=59)
+                System.out.print(horas+":"+minutos+" AM");
+            else System.out.print(horas-12+":"+minutos+" PM");}
+        else
+            System.out.print("Erro");
     }
 }
