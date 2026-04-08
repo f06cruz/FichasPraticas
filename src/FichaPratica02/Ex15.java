@@ -69,6 +69,9 @@ public class Ex15 {
             }
             default:
                 System.out.println("Escolha uma das duas opções.");
+
         }
+
     }
+
 }
