@@ -9,7 +9,7 @@ public class Ex07 {
         while (num<=100){
             System.out.println(num);
             total=total+num;
-            num=num+1;
+            num++;
         }
         System.out.println("Somatório: "+total);
     }

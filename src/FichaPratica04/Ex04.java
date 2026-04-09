@@ -5,24 +5,24 @@ public class Ex04 {
         Scanner input = new Scanner(System.in);
         System.out.println("_________FP04 | EX04__________");
 
-        int num, cont=1, res=0;
+        int num, cont=2, res=1;
 
-        System.out.println("Introduza um número.");
+        System.out.print("Introduza um número: ");
         num= input.nextInt();
 
-        while (cont!=num) {
-            if (num%cont!=0)
-                res=1;
-            else if (num%1==0 && num%num==0)
+        while (cont<=num){
+            if (num%cont==0 && cont!=num){
                 res=2;
+                break;}
             cont++;
         }
+
         switch (res) {
             case 1 :{
-                System.out.println("Não Primo");
+                System.out.println("Primo");
                 break;}
             case 2 :{
-                System.out.println("Primo");
+                System.out.println("Não Primo");
                 break;}
 
         }

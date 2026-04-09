@@ -12,7 +12,7 @@ public class Ex10 {
         while (num<=resp) {
             if (num%2==0)
                 System.out.println(num);
-            num=num+1;
+            num++;
         }
     }
 }

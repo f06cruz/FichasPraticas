@@ -15,7 +15,7 @@ public class Ex14 {
             if (num2 < temp)
                 resultado=1;
             temp=num2;
-            num1 = num1 -1;
+            num1--;
         }
         System.out.println("\n");
         if (resultado==0)

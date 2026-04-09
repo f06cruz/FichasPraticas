@@ -12,7 +12,7 @@ public class Ex15 {
 
         while (cont>1) {
             num = num * (cont-1);
-            cont=cont-1;
+            cont--;
         }
         System.out.println("Resultado:"+num);
 
