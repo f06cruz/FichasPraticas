@@ -10,13 +10,13 @@ public class Ex12 {
             System.out.print("Introduza um número: ");
             num= input.nextInt();
             if (num>=0 && num<=25){
-                    count1=count1+1;
+                    count1++;
                 } else if (num>=26 && num<=50){
-                    count2=count2+1;
+                    count2++;
                     } else if (num>=51 && num<=75){
-                        count3=count3+1;
+                        count3++;
                         } else if (num>=76 && num<=100){
-                            count4=count4+1;}
+                            count4++;}
 
         }
         System.out.println("[00,25]: "+count1);

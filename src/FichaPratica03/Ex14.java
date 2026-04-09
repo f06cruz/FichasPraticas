@@ -4,7 +4,8 @@ public class Ex14 {
         Scanner input = new Scanner(System.in);
         System.out.println("_________FP03 | EX14__________");
 
-        int num1, num2, temp=0, resultado=0;
+        int num1, num2, temp=0;
+        boolean resultado = true;
 
         System.out.print("Quantos números deseja inserir: ");
         num1 = input.nextInt();
@@ -12,13 +13,13 @@ public class Ex14 {
         while (num1 >0) {
             System.out.print("Introduza um número: ");
             num2= input.nextInt();
-            if (num2 < temp)
-                resultado=1;
+            if (num2 <= temp)
+                resultado=false;
             temp=num2;
             num1--;
         }
         System.out.println("\n");
-        if (resultado==0)
+        if (resultado)
             System.out.println("Crescente");
         else System.out.println("Não crescente");
     }
