@@ -9,7 +9,6 @@ public class Ex01 {
         String operacao, cont;
 
         do {
-
             System.out.print("Escreva o 1º número: ");
             num1 = input.nextDouble();
             System.out.print("Escreva o 2º número: ");
