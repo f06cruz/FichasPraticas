@@ -6,18 +6,18 @@ public class Ex04 {
         System.out.println("_________FP04 | EX04__________");
 
         int num, cont=2;
-        boolean res=true;
+        boolean primo =true;
 
         System.out.print("Introduza um número: ");
         num= input.nextInt();
 
-        while (cont<=num){
-            if (num%cont==0 && cont!=num)
-                res=false;
+        while (cont<num){
+            if (num%cont==0)
+                primo =false;
             cont++;
         }
-        
-        if (res)
+
+        if (primo)
             System.out.println("Primo");
         else System.out.println("Não Primo");
     }
