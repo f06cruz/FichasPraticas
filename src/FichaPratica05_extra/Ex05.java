@@ -6,7 +6,7 @@ public class Ex05 {
         System.out.println("_________FP05.1 | EX05__________");
         Scanner input = new Scanner(System.in);
 
-        int[] lista = new int[5];
+        int[] lista = new int[12];
         int valor;
         boolean teste1 = false;
 
@@ -24,10 +24,11 @@ public class Ex05 {
                 if (lista[y] == valor && x != y) {
                     teste1 = true;
                     System.out.println(lista[x]);
+                    break;
                 }
         }
 
-        if (teste1 == false)
+        if (!teste1)
             System.out.println("Não existem números duplicados no array.");
     }
 }

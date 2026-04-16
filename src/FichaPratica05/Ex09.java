@@ -9,14 +9,14 @@ public class Ex09 {
         int [][] matriz =new int[5][5];
         int soma=0;
 
-        for (int x = 0; x <5; x++) {
-            for (int y = 0; y < 5; y++) {
+        for (int x = 0; x < matriz.length; x++) {
+            for (int y = 0; y < matriz[0].length; y++) {
                 System.out.print("Insira um número na posição [" + (x+1) + "][" + (y+1) +"]: ");
                 matriz[x][y] = input.nextInt();
             }
         }
-        for (int x = 0; x <5; x++) {
-            for (int y = 0; y < 5; y++) {
+        for (int x = 0; x <matriz.length; x++) {
+            for (int y = 0; y < matriz[0].length; y++) {
                 soma+=matriz[x][y];
             }
         }
