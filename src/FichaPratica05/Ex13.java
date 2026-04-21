@@ -11,15 +11,15 @@ public class Ex13 {
 
         for (int x = 0; x <4; x++) {
             for (int y = 0; y < 4; y++) {
-                System.out.print("Insira um número na posição [" + (x+1) + "][" + (y+1) +"]: ");
+                System.out.print("Insira um número na posição [" +x+ "][" +y+"]: ");
                 matriz[x][y] = input.nextInt();
             }
         }
 
-        System.out.println("\n_______________\n");
+        System.out.println("\n_______________");
 
-        for (int x = 0; x <4; x++) {
-            for (int y = 0; y < 4; y++) {
+        for (int x = 0; x < matriz.length; x++) {
+            for (int y = 0; y < matriz[0].length; y++) {
                 if (x==y)
                     soma+=matriz[x][y];
             }
@@ -27,3 +27,7 @@ public class Ex13 {
         System.out.println("Soma da diagonal principal: "+ soma);
     }
 }
+
+
+//for (int x = 0; x < matriz.length; x++)
+    //soma+=matriz[x][x];
