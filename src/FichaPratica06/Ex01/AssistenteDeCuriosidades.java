@@ -1,8 +1,8 @@
-package FichaPratica06;
+package FichaPratica06.Ex01;
 
 import java.util.Scanner;
-import static FichaPratica06.BibliotecaCuriosidades.*;
-import static FichaPratica06.Copyright.fecho;
+import static FichaPratica06.Ex01.BibliotecaCuriosidades.*;
+import static FichaPratica06.funcoesVoid.*;
 
 public class AssistenteDeCuriosidades {
     public static void main(String[] args) {
@@ -76,6 +76,8 @@ public class AssistenteDeCuriosidades {
                 default:
                     System.out.println("Erro");
             }
+            if (opcao!=0)
+                limparConsola();
         } while (opcao!=0);
 
         System.out.println("\nA fechar assistente...");
