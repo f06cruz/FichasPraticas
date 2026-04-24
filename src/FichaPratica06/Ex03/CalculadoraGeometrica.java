@@ -1,7 +1,7 @@
 package FichaPratica06.Ex03;
 import java.util.Scanner;
 import static FichaPratica06.Ex03.BibliotecaGeometrica.*;
-import static FichaPratica06.funcoesVoid.*;
+import static FichaPratica06.funcoesExtra.*;
 
 public class CalculadoraGeometrica {
     public static void main(String[] args) {
@@ -75,15 +75,14 @@ public class CalculadoraGeometrica {
                     System.out.println("\nÁrea do Triângulo: "+ resultado);
                     break;
                 case 0:
+                    terminar();
                     break;
                 default:
-                    System.out.println("Erro");
+                    System.out.println("\nErro");
             }
             if (opcao!=0)
                 limparConsola();
         } while (opcao!=0);
-
-        System.out.println("\nA fechar assistente...");
         fecho();
     }
 }
