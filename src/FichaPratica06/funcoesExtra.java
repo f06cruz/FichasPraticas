@@ -1,4 +1,5 @@
 package FichaPratica06;
+
 import java.util.Scanner;
 
 public class funcoesExtra {
