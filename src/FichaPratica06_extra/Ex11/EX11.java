@@ -1,7 +1,7 @@
-package FichaPratica07_extra.Ex11;
+package FichaPratica06_extra.Ex11;
 import java.util.Scanner;
-import static FichaPratica07_extra.Ex11.B11.*;
-import static FichaPratica07_extra.funcoesExtra.*;
+import static FichaPratica06_extra.Ex11.B11.*;
+import static FichaPratica06_extra.funcoesExtra.*;
 
 public class EX11 {
     public static void main(String[] args) {
